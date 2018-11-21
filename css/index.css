@@ -1,0 +1,19 @@
+.header-top ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	margin-left: 200px;
+	margin-top: -10px;
+}
+.header-top li{
+	float:left;
+	margin-right: 30px;
+}
+.header-top a{
+	color: #000;
+	font-weight: 500;
+}
+.header-top a:hover {
+	color: #19B27C;
+	font-weight: 500;
+}
