@@ -17,3 +17,20 @@
 	color: #19B27C;
 	font-weight: 500;
 }
+
+.index-content .product-list {
+    padding-top: 10px;
+}
+.index-content .product-list .one img {
+    width: 320px;
+    height: 200px;
+}
+.index-content .product-list div {
+    width: 33%;
+    height: 240px;
+    display: inline-block;
+}
+.index-content .product-list img {
+    width: 320px;
+    height: 200px;
+}
