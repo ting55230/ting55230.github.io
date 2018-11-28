@@ -34,3 +34,37 @@
     width: 320px;
     height: 200px;
 }
+
+.pro-list .pro-leftsidebar ul li:first-child{
+    display: block;
+    list-style: none;
+    line-height: 50px;
+    background: #ffffff;
+    text-align: center;
+}
+.pro-list .pro-leftsidebar #pro-search li, .pro-list .pro-leftsidebar #pro-category li {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background: #ffffff;
+}
+
+.pro-list .pro-leftsidebar #pro-search li, .pro-list .pro-leftsidebar #pro-category li:hover {
+    background: #F1404B;
+}
+.pro-list .pro-leftsidebar #pro-search li, .pro-list .pro-leftsidebar #pro-category li a:hover {
+    color: #ffffff !important;
+}
+.pro-list .pro-leftsidebar a {
+    color: #000000;
+}
+.on {
+    background: #f1404b !important;
+}
+.on a {
+    color: #ffffff !important;
+}
+
+.pro-list .pro-rightsidebar li {
+    width: 300px;
+}
