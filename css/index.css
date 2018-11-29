@@ -68,3 +68,23 @@
 .pro-list .pro-rightsidebar li {
     width: 300px;
 }
+
+.pro-list .pro-rightsidebar .img-box img {
+    width: 300px;
+    height: 185px;
+    border: 0px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: all 0.6s;
+    border: none;
+}
+
+.pro-list .pro-rightsidebar .img-box img:hover {
+    border: 3px solid rgba(0,0,0,0);
+}
+
+
+.pro-list .pro-rightsidebar li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px 7px 0;
+}
