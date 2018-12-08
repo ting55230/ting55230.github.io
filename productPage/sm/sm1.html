@@ -5,28 +5,26 @@
 <meta name="description" content="“美克拉地板”雄踞中国木地板、木门、整木定制之都--南浔，是专业地板研发、生产智造的大型家居集团企业。公司创立于2008年，以“科技创新，引领中国家居产业发展”为使命，坚持产品品质环保化、标准化的管理体系，引进德国多条高端生产设备线，采用德国坚弗水性环保涂料，匠心智造家居产品，成为中国家居行业的领军品牌，赢得客户和业界的一致好评。" />
 <title>美克拉地板-实木地板</title>
 <meta charset="UTF-8">
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" href="../../favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <meta name="viewport" content="width=1200,user-scalable=yes"><!--最大宽度1200px 允许用户缩放-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<link rel="stylesheet" href="css/default.css?t=227" />
-<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="../../css/default.css?t=227" />
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
 <!--<![endif]-->
 <!--[if lte IE 8 ]>
 <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
 <script src="lib/amazeui/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
-<script type="text/javascript" src="lib/handlebars/handlebars.min.js"></script>
-<script type="text/javascript" src="lib/iscroll/iscroll-probe.js"></script>
-<script type="text/javascript" src="lib/amazeui/amazeui.min.js"></script>
-<script type="text/javascript" src="lib/raty/jquery.raty.js"></script>
-<script type="text/javascript" src="js/mag.js"></script>
-<script type="text/javascript" src="js/main.min.js?t=1"></script>
-<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-    <script src="js/mag.js"></script>
+<script type="text/javascript" src="../../lib/handlebars/handlebars.min.js"></script>
+<script type="text/javascript" src="../../lib/iscroll/iscroll-probe.js"></script>
+<script type="text/javascript" src="../../lib/amazeui/amazeui.min.js"></script>
+<script type="text/javascript" src="../../lib/raty/jquery.raty.js"></script>
+<script type="text/javascript" src="../../js/main.min.js?t=1"></script>
+<script src="../../js/mag.js"></script>
 </head>
 <script>
     $(function(){
@@ -39,11 +37,19 @@
          */
         var obj = new mag('.show', '.bigshow','.smallshow','.mask','.bigitem');
         obj.init();
+
+        $("#product-img").hide();
+
+        $("#show-img").click(function(){
+            $("#product-img").show();
+            $("#show-img").hide();
+            $("#product-img").css("margin-top","-100px");
+        });
     });
 </script>
 <style>
     ul,li{list-style: none;margin:0;padding:0;}
-    .bg{width:920px;height: 540px;margin:0 auto;padding:20px;border:1px solid #E8E8E8;overflow: hidden;min-width: 900px;box-sizing: border-box;background: #fff;}
+    .bg{width:920px;height: 300px;margin:0;border:1px solid #E8E8E8;overflow: hidden;min-width: 900px;box-sizing: border-box;background: #fff;}
     .bg_left{width: 430px;height:auto;float: left}
     .bg_right{float: left}
     .show{width: 430px;height: 286px;margin-bottom: 10px;position: relative;border:1px solid #E8E8E8;cursor:move}
@@ -61,14 +67,28 @@
     .smallshow>.next{right: 0;background: url(img/hover-next.png) no-repeat;transition: all 0.5s}
     .smallshow>.prev.prevnone{left: 0;background: url(img/prev.png) no-repeat;cursor: not-allowed}
     .smallshow>.next.nextnone{right: 0;background: url(img/next.png) no-repeat;cursor: not-allowed}
+    .top-img,.next-img {
+        color: #9B9B9B;
+        font-weight: 700;
+        margin-right: 100px;
+        padding-top: 25px
+    }
+    .top-img:hover{
+        color: #F1404B;
+        font-weight: 600;
+    }
+    .next-img:hover{
+        color: #F1404B;
+        font-weight: 600;
+    }
 </style>
 <body>
-	<script type="text/javascript" src="js/script.js" ></script>
+    <script type="text/javascript" src="../../js/script.js" ></script>
 <a href="#0" class="cd-top">Top</a>
 <header>
     <div class="header-top">
         <div class="width-center">
-            <div class="header-logo "><img src="images/logo1.png" alt=""></div>
+            <div class="header-logo "><img src="../../images/logo1.png" alt=""></div>
             
             <div class="header-title div-inline">
                 <ul>
@@ -85,7 +105,7 @@
 </header>
 
 <div>   
-      <img src="images/newsbanner.jpg" alt="" style="width: 100%;">
+      <img src="../../images/newsbanner.jpg" alt="" style="width: 100%;">
 </div>
 
 <section class="pro-list">
@@ -94,7 +114,7 @@
             <li>
                 <a><span style="font-weight: 800; color: #F1404B">产品分类</span></a>
                 <ul id="pro-category">
-                	<li class="on"><a href="productlist3.html">实木地板</a></li>
+                    <li class="on"><a href="productlist3.html">实木地板</a></li>
                     <li><a href="productlist4.html">纯实木地热地板</a></li>
                     <li><a href="productlist.html">实木多层地板</a></li>
                     <li><a href="productlist1.html">人字拼地板</a></li>
@@ -115,7 +135,7 @@
 <div class="bg">
     <div class="bg_left">
         <div class="show">
-            <img src="images/products/sm/003.jpg" alt="">
+            <img src="../../images/products/sm/003.jpg" alt="">
             <div class="mask"></div>
         </div>
         
@@ -123,32 +143,47 @@
     <div class="bg_right">
         <div class="bigshow">
             <div class="bigitem">
-                <img src="images/products/sm/003.jpg" alt="">
+                <img src="../../images/products/sm/003.jpg" alt="">
             </div>
         </div>
     </div>
+    <div style="margin-top: 30px; padding-left: 535px">
+        <ul class="pro-right-info-constant">
+            <li style="margin-top: 15px"><span style="font-weight: 900">系列:</span> <span style="margin-left: 12px">实木系列</span></li>
+            <li style="margin-top: 15px"><span style="font-weight: 900">型号:</span> <span style="margin-left: 12px">003</span></li>
+            <li style="margin-top: 15px"><span style="font-weight: 900">木种:</span> <span style="margin-left: 12px">金刚柚木</span></li>
+            <li style="margin-top: 15px"><span style="font-weight: 900">规格:</span> <span style="margin-left: 12px">190 * 125</span></li>
+            <li style="margin-top: 15px"><span style="font-weight: 900">名称:</span> <span style="margin-left: 12px">本色亚光</span></li>
+        </ul>
+    </div>
 </div>
+  
 
 
 
         <div class="pro_list_more_pages">
-            <ul>
-                <li style="width: 100px"><a>上一页</a></li>
-                <li style="width: 20px" class="pro-list-current"><a>1</a></li>
-                <li style="width: 20px"><a href="https://org.mklflooring.com/productlist_sm2.html">2</a></li>
-                <li style="width: 100px"><a href="https://org.mklflooring.com/productlist_sm2.html">下一页</a></li>
-            </ul>
+            <div id="show-img" style="margin-top: -70px; margin-left: 100px; padding: 0px; text-align: left;">
+                <span style="display: block; width: 160px; height: 40px; line-height: 40px; background-color: #F1404B; text-align: center; color: #ffffff; cursor: pointer;">查看全图</span>
+            </div>
         </div>
     </aside>
 
 
 </section>
+<center>
+    <img id="product-img" src="../../images/products/sm/003.jpg" width="810" height="534" />
+</center>
+
+<div style="width: 80%; text-align: right; height: 40px; margin-top: 20px">
+    <a class="top-img">上一个：XXX</a>
+    <a class="next-img">下一个：XXX</a>
+</div>
 
 ﻿<footer>
     <div>
         <div class="footer-info">
             <div class="footer-content">
-                <img src="images/weixin.jpg" alt="美克拉地板官微信">
+                <img src="../../images/weixin.jpg" alt="美克拉地板官微信">
                 <div>
                 <p>招商热线:13059983399</p>
                 <div class="footer-box">
